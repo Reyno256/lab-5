@@ -11,6 +11,7 @@ public class LogoutOutputData {
     public LogoutOutputData(String username, boolean useCaseFailed) {
         this.username = username;
         this.useCaseFailed = useCaseFailed;
+
     }
 
     public String getUsername() {
